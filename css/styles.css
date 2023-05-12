@@ -318,7 +318,7 @@ button {
 	justify-content: center;
 }
 .customers-item {
-	width: 168px;
+	width: calc((100% - 120px) / 6); 
 	height: 88px;
 	
 }
@@ -331,17 +331,16 @@ button {
 	height: 100%;
 	border: 1px solid var(--subtle-text-color);
 	border-radius: 4px;
+	color: var(--subtle-text-color);
 }
 .customers-icon {
-	fill: var(--subtle-text-color);
+	fill: currentColor;
 }
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-	fill: var(--pressed-state-color);
-}
+
 .customers-link:hover,
 .customers-link:focus {
 	border-color: var(--pressed-state-color);
+	color: var(--pressed-state-color);
 }
 
 .basement {
@@ -399,6 +398,7 @@ button {
 	flex-wrap: wrap;
 	column-gap: 24px;
 	row-gap: 48px;
+	justify-content: center;
 }
 .portfolio-link {
 	display: block;

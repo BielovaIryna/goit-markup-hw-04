@@ -20,7 +20,7 @@
 	--second-title-font-size: 36px;
 	--second-title-font-weight: 700;
 	--second-title-letter-spacing: 0.02em;
-	--second-title-line-height: 1.11;
+	--second-title-line-height: 1.1;
 	--third-title-font-size: 20px;
 	--third-title-font-weight: 500;
 	--third-title-letter-spacing: 0.02em;
@@ -79,12 +79,14 @@ button {
 	border: none;
 }
 .container {
-	max-width: 1440px;
+	width: 1128px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
 }
+
+
 .list {
 	list-style: none;
 	display: flex;
@@ -174,9 +176,9 @@ button {
 	color: var(--text-color);
 }
 .hero {
+	max-width: 1440px;
 	background-color: var(--dark-color);
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -184,6 +186,7 @@ button {
 	padding-top: 188px;
 	padding-bottom: 188px;
 	text-align: center;
+	margin: 0 auto;
 	
 }
 

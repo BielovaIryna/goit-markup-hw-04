@@ -287,7 +287,7 @@ button {
 .card-info {
 	padding: 32px 0;
 }
-.card-info .main-text {
+.team .main-text {
 	margin-bottom: 8px;
 }
 .social-media-item {
@@ -392,9 +392,12 @@ button {
 .portfolio {
 	padding: 96px 0 120px;
 }
+.portfolio-container{
+	padding-left: 0;
+	padding-right: 0;
+}
 .portfolio-filtr-list {
 	justify-content: center;
-
 	margin-bottom: 72px;
 }
 .portfolio-list {
@@ -411,10 +414,12 @@ button {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item .card-info {
+.portfolio-card-info {
 	border: 1px solid var(--accent-color);
 	border-top: none;
+	padding: 32px 16px;
 }
+
 .portfolio-filtr-btn {
 	background-color: var(--light-color);
 	color: var(--primary-brand-color);
